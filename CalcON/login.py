@@ -1,8 +1,8 @@
 tentativas = 5
 
 def cadastro():
-    user = input('Cadastre seu usuario: ')
-    password = input('Cadasre sua senha: ')
+    user = input('Cadastre seu usuário: ')
+    password = input('Cadastre sua senha: ')
     print('Conta cadastrada com sucesso!')
     return user, password
 
@@ -18,4 +18,4 @@ while tentativas > 0:
 
     else:
         tentativas -= 1
-        print(f'Credenciais invalidas tente novamente. Você ainda possui {tentativas}.')
+        print(f'Credenciais inválidas tente novamente. Você ainda possui {tentativas}.')

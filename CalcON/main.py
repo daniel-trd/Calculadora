@@ -30,4 +30,4 @@ elif escolha == '*':
     multiplicacao()
 
 else:
-    print('Escolha um operador valido e tente novamenete!')
+    print('Escolha um operador válido e tente novamente!')
